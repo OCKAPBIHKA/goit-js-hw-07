@@ -13,7 +13,7 @@ body {
   line-height: 1.5;
 }
 
-.item {
+/* .item {
   width: 392px;
   height: 100%;
   border-radius: 8px;
@@ -41,4 +41,23 @@ li {
   border: 2px solid #808080;
   border-radius: 4px;
   margin-bottom: 8px;
+} */
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+}
+
+.gallery-li {
+  flex: 1 0 auto;
+  margin: 10px;
+}
+
+.gallery-img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
 }
