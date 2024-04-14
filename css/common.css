@@ -46,18 +46,21 @@ li {
 .gallery {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
   margin: 0;
   padding: 0;
 }
 
 .gallery-li {
-  flex: 1 0 auto;
-  margin: 10px;
+
+  margin: 24px;
+  column-gap: 24px;
+  row-gap: 48px;
+  list-style-type: none;
 }
 
 .gallery-img {
-  width: 100%;
-  height: auto;
+  width: 360px;
+  height: 300px;
   object-fit: cover;
 }
