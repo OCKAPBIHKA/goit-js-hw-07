@@ -64,3 +64,105 @@ li {
   height: 300px;
   object-fit: cover;
 }
+
+/* TASK 5 */
+.widget {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px auto;
+  width: 200px;
+}
+
+.widget p {
+  margin: 0;
+}
+
+.color {
+  font-weight: bold
+}
+
+.change-color {
+  color: #FFF;
+  cursor: pointer;
+  background: #4E75FF;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  text-align: left;
+  width: 148px;
+  height: 40px;
+  padding: 8px 16px 8px 16px;
+  gap: 10px;
+  border-radius: 8px;
+  border: none;
+}
+
+/* TASK 6 */
+.btn-controll {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 16px;
+  gap: 16px;
+  border-radius: 8px;
+}
+
+.squares-monitor {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  gap: 44px;
+}
+
+.input-area {
+  width: Hug (150px)px;
+  height: Hug (40px)px;
+  padding: 8px 72px 8px 72px;
+  gap: 10px;
+  border-radius: 8px;
+  color: #808080;
+
+}
+
+.btn-input {
+  color: #FFF;
+  cursor: pointer;
+  background: #4E75FF;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  text-align: center;
+  width: 148px;
+  height: 40px;
+  padding: 8px 16px 8px 16px;
+  gap: 10px;
+  border-radius: 8px;
+  border: none;
+}
+
+.btn-reset {
+  color: #FFF;
+  cursor: pointer;
+  background: #FF4E4E;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  text-align: center;
+  width: 148px;
+  height: 40px;
+  padding: 8px 16px 8px 16px;
+  gap: 10px;
+  border-radius: 8px;
+  border: none;
+}
+
+.btn-reset:hover {
+  background-color: #FF7070;
+}
+
+.btn-input:hover {
+  background-color: #6C8CFF;
+}
